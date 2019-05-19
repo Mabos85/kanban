@@ -1,0 +1,60 @@
+.trello-card {
+  background: white;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+  margin-bottom: 8px;
+  max-width: 300px;
+}
+.trello-card p {
+  margin: 0;
+}
+.display-none {
+  display: none;
+}
+.hidden-content {
+  display: block;
+}
+.hidden-content:hover {
+  display: block;
+}
+.trello-card p.name {
+  font-weight: bold;
+}
+.trello-card span.age {
+  color: #919191;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.trello-card p.email {
+  color: #ab1160;
+  font-size: 0.85rem;
+}
+.trello-card p.adress {
+  color: #333;
+  font-size: 0.85rem;
+}
+.trello-card p.img {
+  color: #333;
+  font-size: 0.85rem;
+}
+.close-button {
+  float: right;
+  color: #000;
+  background: pink;
+  width: 25px;
+  height: 25px;
+  text-align: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+.trello-card .profile-image {
+  width: 50px;
+  height: auto;
+  display: inline-block;
+  margin-top: 6px;
+  background: #d9d9d9;
+  padding: 5px;
+  border-radius: 50%;
+}

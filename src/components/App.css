@@ -1,0 +1,94 @@
+html {
+  font-size: 16px;
+}
+/*
+
+10px = 0.625rem
+12px = 0.75rem
+14px = 0.875rem
+16px = 1rem (base)
+18px = 1.125rem
+20px = 1.25rem
+24px = 1.5rem
+30px = 1.875rem
+32px = 2rem
+
+*/
+.App {
+  box-sizing: border-box;
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+}
+.App h2 {
+  color: #fff;
+  font-size: 1.45rem;
+  padding: 14px 0px 0px 10px;
+}
+
+.nav-bar {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.nav-bar span {
+  float: left;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  margin: 5px 5px;
+  text-align: center;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.nav-bar span.search {
+  width: 200px;
+  text-align: right;
+  padding-right: 5px;
+}
+.nav-bar span:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.nav-bar img {
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  margin-top: 13px;
+  width: 140px;
+  opacity: 0.5;
+}
+.nav-bar img:hover {
+  opacity: 0.8;
+}
+
+.swimlane-container {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 768px) {
+  .App {
+    overflow-x: scroll;
+  }
+  .nav-bar img {
+    position: relative;
+    left: 0;
+    margin-left: 0;
+  }
+  .nav-bar span.search {
+    width: 40px;
+    text-align: center;
+    padding-right: 0px;
+  }
+}
